@@ -25,8 +25,12 @@ Zestawienie funkcjonalności:
 - Możliwość wyboru rasy
 
 ## Screenshots
+
+#### Widok na główną stronę aplikacji + rozsunięte menu
 ![Example screenshot](https://raw.githubusercontent.com/lempartmar/rekrutacjaAngular/main/img/scrn1.PNG)
+#### Widok na pole wyboru 
 ![Example screenshot](https://raw.githubusercontent.com/lempartmar/rekrutacjaAngular/main/img/scrn2.PNG)
+#### Widok na zakładkę o aplikacji
 ![Example screenshot](https://raw.githubusercontent.com/lempartmar/rekrutacjaAngular/main/img/scrn3.PNG)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
