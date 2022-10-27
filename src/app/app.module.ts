@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { SettingsComponent } from './settings/settings.component';
-import { SearchsidenavComponent } from './searchsidenav/searchsidenav.component';
 import { SublevelMenuComponent } from './sidenav/sublevel-menu.component';
 import { AboutComponent } from './about/about.component';
 import { StatsComponent } from './stats/stats.component';
@@ -23,7 +22,6 @@ import { ListComponent } from './list/list.component';
     AboutComponent,
     StatsComponent,
     SettingsComponent,
-    SearchsidenavComponent,
     SublevelMenuComponent,
   ],
   imports: [
