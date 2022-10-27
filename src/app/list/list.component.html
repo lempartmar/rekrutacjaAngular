@@ -1,0 +1,38 @@
+<h1> PSI INSTAGRAM </h1>
+
+<div class="card-instagram">
+  <div class="card-head">
+    <div class="select">
+      <select name="format" id="format" [(ngModel)]="mySelect" (change)="wikiLinkAdd()" (change)="fetchImage()"
+        (change)="dogDataFetcher()" [multiple]=false>
+        <option default="true" *ngIf="mySelect.length==0">Wybierz rasę</option>
+        <option *ngFor="let item of listOfDogs" [value]="item">
+          {{item}}
+        </option>
+      </select>
+    </div>
+  </div>
+  <ng-container *ngIf="multiple; else elseTemplate">
+    <div>
+      Wybrana rasa:
+      <ul>
+        <li *ngFor="let si of selectedValue">{{mySelect[0]}}</li>
+      </ul>
+    </div>
+  </ng-container>
+
+
+  <div class="main-frame">
+    <div class="card-body">
+      <ng-template #elseTemplate>
+        <div *ngIf="mySelect.length > 0">
+          <h3>Wybrana rasa: {{mySelect[0]}}</h3>
+          <a href={{wikiUrl}}>Link do Wikipedii dot. rasy: {{mySelect[0]}}</a>
+        </div>
+      </ng-template>
+      <div (keyup)="0" *ngIf="mySelect.length > 0">
+        <img class="image" [src]=itemImageUrl />
+      </div>
+    </div>
+  </div>
+</div>
