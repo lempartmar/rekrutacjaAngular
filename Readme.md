@@ -25,7 +25,7 @@ Zestawienie funkcjonalności:
 - Możliwość wyboru rasy
 
 ## Screenshots
-![Example screenshot](./img/scrn1.png)
+![Example screenshot](https://raw.githubusercontent.com/lempartmar/rekrutacjaAngular/main/img/scrn1.PNG)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Link
