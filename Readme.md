@@ -26,6 +26,8 @@ Zestawienie funkcjonalności:
 
 ## Screenshots
 ![Example screenshot](https://raw.githubusercontent.com/lempartmar/rekrutacjaAngular/main/img/scrn1.PNG)
+![Example screenshot](https://raw.githubusercontent.com/lempartmar/rekrutacjaAngular/main/img/scrn2.PNG)
+![Example screenshot](https://raw.githubusercontent.com/lempartmar/rekrutacjaAngular/main/img/scrn3.PNG)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Link
