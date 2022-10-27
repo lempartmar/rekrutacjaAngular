@@ -1,5 +1,5 @@
 # Nazwa projektu
-> PSI INSTAGRA - projekt przygotowany jako rozwiązanie zadania rekrutacyjnego
+> PSI INSTAGRAM - projekt przygotowany jako rozwiązanie zadania rekrutacyjnego.
 > Live demo [_here_](https://lempartmar.github.io/rekrutacjaAngular/list). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Ogólne informacje
@@ -12,9 +12,9 @@
 
 ## Funkcjonalności
 Zestawienie funkcjonalności:
-- Rozsuwany oraz responsywny side-nave
+- Rozsuwany side-nav
 - 3 zakładki
-- Możliwość wyboru rasy
+- Możliwość wyboru rasy psa (pobrane z serwisu https://dog.ceo/dog-api/)
 
 ## Screenshots
 

@@ -40,7 +40,7 @@ export class ListComponent {
   }
 
   wikiLinkAdd() {
-    this.wikiUrl = `https://en.wikipedia.org/wiki${this.mySelect[0]}`;
+    this.wikiUrl = `https://en.wikipedia.org/wiki/${this.mySelect[0]}`;
   }
 
   async fetchImage() {
